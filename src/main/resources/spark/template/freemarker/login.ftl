@@ -29,7 +29,7 @@
       <input placeholder="Your Web Site (optional)" type="url"  name= "web"  required>
     </fieldset>
     <fieldset>
-      <textarea placeholder="Type your message here...." type= "text" name= "message"  required></textarea>
+      <textarea placeholder="Type your message here..." type= "text" name= "message"  required></textarea>
     </fieldset>
     <fieldset>
       <button name="submit" type="submit" id="submit" data-submit="...Sending">Submit</button>
