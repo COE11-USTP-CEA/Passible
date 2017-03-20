@@ -11,7 +11,11 @@ public class Contacts {
 	public ArrayList<Item> all(){
 		return contacts;
 	}
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 15b786590c818967770d0cf7a74adb94a43e4ac1
 
 	public void add(Item item){
 		contacts.add(item);
@@ -32,7 +36,11 @@ public class Contacts {
 		for (Item item : contacts ) {
 			if ( code.equals(item.code) ) {
 				return item;
+<<<<<<< HEAD
 			}
+=======
+			} 
+>>>>>>> 15b786590c818967770d0cf7a74adb94a43e4ac1
 		};
 		return null;
 	}

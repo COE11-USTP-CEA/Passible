@@ -5,7 +5,7 @@ import com.sample.spark.model.Contacts;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Date;
-
+ 
 import java.util.HashMap;
 import java.util.Map;
 
@@ -27,6 +27,25 @@ public class Main {
  
             return new ModelAndView(model, "home.ftl"); // located in src/main/resources/spark/template/freemarker
         }, new FreeMarkerEngine());
+<<<<<<< HEAD
+=======
+
+         get("/aboutus", (req, res) -> {
+            Map<String, Object> model = new HashMap<>();
+            
+            model.put("title", "About Us ");
+ 
+            return new ModelAndView(model, "aboutus.ftl"); // located in src/main/resources/spark/template/freemarker
+        }, new FreeMarkerEngine());  
+
+         get("/video", (req, res) -> {
+            Map<String, Object> model = new HashMap<>();
+            
+            model.put("title", "Video ");
+ 
+            return new ModelAndView(model, "video.ftl"); // located in src/main/resources/spark/template/freemarker
+        }, new FreeMarkerEngine());
+>>>>>>> 15b786590c818967770d0cf7a74adb94a43e4ac1
 	
 
         get("/submit", (req, res) -> {
@@ -35,6 +54,7 @@ public class Main {
             model.put("title", "Add Contact");
             
             return new ModelAndView(model, "add.ftl");
+<<<<<<< HEAD
         }, new FreeMarkerEngine());
 
       //  post("/submit", (req, res) -> {
@@ -77,10 +97,62 @@ public class Main {
         }, new FreeMarkerEngine());
 
          get("/view/:code", (request, response) -> {
+=======
+        }, new FreeMarkerEngine());
+
+     
+
+     post("/submit", (req, res) -> {
+            Map<String, Object> model = new HashMap<>();
+            String code = req.queryParams("code");
+            String name = req.queryParams("name");
+            String number = req.queryParams("number");
+
+            Item item = new Item();
+            item.setCode(code);
+            item.setName(name);
+            item.setNumber(number);
+
+            contacts.add(item);
+
+            model.put("title", "Show Item");
+            model.put("item", item);
+           
+            return new ModelAndView(model, "view.ftl");
+        }, new FreeMarkerEngine());
+
+         get("/view/:code", (request, response) -> {
             Map<String, Object> model = new HashMap<>();
             String code = request.params(":code");
             Item item = contacts.findItemByCode(code);
             
+            model.put("title", "Show Item");
+            model.put("item", item);
+            
+          return new ModelAndView(model, "view.ftl");
+        }, new FreeMarkerEngine());
+
+         get("/list", (request, response) -> {
+            Map<String, Object> model = new HashMap<>();
+            model.put("title", "Your Contacts");
+            model.put("contacts", contacts.all());
+            return new ModelAndView(model, "list.ftl");
+        }, new FreeMarkerEngine());
+
+          get("/post", (request, response) -> {
+            Map<String, Object> model = new HashMap<>();
+            model.put("title", "Your Contacts");
+            model.put("contacts", contacts.all());
+            return new ModelAndView(model, "delete.ftl");
+        }, new FreeMarkerEngine());
+
+         get("/delete/:code", (request, response) -> {
+>>>>>>> 15b786590c818967770d0cf7a74adb94a43e4ac1
+            Map<String, Object> model = new HashMap<>();
+            String code = request.params(":code");
+            Item item = contacts.findItemByCode(code);
+            
+<<<<<<< HEAD
             model.put("title", "Show Item");
             model.put("item", item);
             // model.put("searchcode", code);
@@ -100,6 +172,8 @@ public class Main {
             String code = request.params(":code");
             Item item = contacts.findItemByCode(code);
             
+=======
+>>>>>>> 15b786590c818967770d0cf7a74adb94a43e4ac1
             model.put("title", "Delete Contacts");
             model.put("item", item);
             return new ModelAndView(model, "remove.ftl");
