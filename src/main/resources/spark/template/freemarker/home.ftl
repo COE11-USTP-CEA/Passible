@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
    
-    <title>${title}</title>
+    <title>${title}</title> 
  
     <!-- Bootstrap Core CSS -->
     <link href="bootstrap.min.css" rel="stylesheet">
@@ -102,7 +102,7 @@
     <!-- /.intro-header -->
 
     <!-- Page Content -->
-
+<!--
 	<a  name="services"></a>
     <div class="content-section-a">
 
@@ -122,7 +122,7 @@
         </div>
         <!-- /.container -->
 
-    </div>
+    </div>-->
     <!-- /.content-section-a -->
 
     <div class="content-section-b">
@@ -170,7 +170,7 @@
     <!-- /.content-section-a -->
 
 	<a  name="contact"></a>
-    <div class="banner">
+ <!-- <div class="banner">
 
         <div class="container">
 
@@ -193,7 +193,7 @@
                 </div>
             </div>
 
-        </div>
+        </div>-->
         <!-- /.container -->
 
     </div> 
@@ -225,7 +225,7 @@
                             <a href="#contact">Contact</a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
+                    <p  style="color:white;" class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
                 </div>
             </div>
         </div>

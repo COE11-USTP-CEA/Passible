@@ -13,7 +13,7 @@
 
 
 <div class="container">  
-  <form  action="/submit" method="post">
+  <form  action="/add" method="post">
     <h1>Save Your Contact Here</h1>
     <h2>Your Personal Contact</h2>
     <fieldset>

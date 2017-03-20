@@ -1,4 +1,7 @@
 
+
+
+
 <!DOCTYPE html>
 <html>
  
@@ -50,9 +53,9 @@
 	</div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-
 <div class="text-center">
-<h1>You have just added a new item </h1>
+<h1>Successfully deleted!</h1>
+
 </div>
 
 
@@ -60,8 +63,6 @@
   <div class="col-md-4"></div>
   <div class="col-md-4">
     
-<h2>Item code: ${item.code}</h2>
-<h2>Item Name: ${item.name}</h2>
 
 <div class="btn-group" role="group" aria-label="...">
   
@@ -83,8 +84,7 @@
 
 
   </div>
-  <div class="col-md-4"></div>
-
+  <div class="col-md-4"> 	
 </div>
 
 </body>
