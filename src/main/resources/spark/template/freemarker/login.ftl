@@ -13,7 +13,11 @@
 
 
 <div class="container">  
+<<<<<<< HEAD
   <form  action="/submit" method="post">
+=======
+  <form  action="/add" method="post">
+>>>>>>> 88747cb1a17ae4392e391714f54fc5ed2ed29b57
     <h1>Save Your Contact Here</h1>
     <h2>Your Personal Contact</h2>
     <fieldset>
@@ -29,7 +33,11 @@
       <input placeholder="Your Web Site (optional)" type="url"  name= "web"  required>
     </fieldset>
     <fieldset>
+<<<<<<< HEAD
       <textarea placeholder="Type your message here...." type= "text" name= "message"  required></textarea>
+=======
+      <textarea placeholder="Type your message here..." type= "text" name= "message"  required></textarea>
+>>>>>>> 88747cb1a17ae4392e391714f54fc5ed2ed29b57
     </fieldset>
     <fieldset>
       <button name="submit" type="submit" id="submit" data-submit="...Sending">Submit</button>

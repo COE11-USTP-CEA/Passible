@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 88747cb1a17ae4392e391714f54fc5ed2ed29b57
 <html lang="en">
 
 <head>
@@ -9,7 +13,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
    
+<<<<<<< HEAD
     <title>${title}</title>
+=======
+    <title>${title}</title> 
+>>>>>>> 88747cb1a17ae4392e391714f54fc5ed2ed29b57
  
     <!-- Bootstrap Core CSS -->
     <link href="bootstrap.min.css" rel="stylesheet">
@@ -102,7 +110,11 @@
     <!-- /.intro-header -->
 
     <!-- Page Content -->
+<<<<<<< HEAD
 
+=======
+<!--
+>>>>>>> 88747cb1a17ae4392e391714f54fc5ed2ed29b57
 	<a  name="services"></a>
     <div class="content-section-a">
 
@@ -122,7 +134,11 @@
         </div>
         <!-- /.container -->
 
+<<<<<<< HEAD
     </div>
+=======
+    </div>-->
+>>>>>>> 88747cb1a17ae4392e391714f54fc5ed2ed29b57
     <!-- /.content-section-a -->
 
     <div class="content-section-b">
@@ -170,13 +186,64 @@
     <!-- /.content-section-a -->
 
 	<a  name="contact"></a>
+<<<<<<< HEAD
     <div class="banner">
+=======
+ <!-- <div class="banner">
+>>>>>>> 88747cb1a17ae4392e391714f54fc5ed2ed29b57
 
         <div class="container">
 
             <div class="row">
                 <div class="col-lg-6">
                     <h2>Connect to Start Bootstrap:</h2>
+<<<<<<< HEAD
+=======
+=======
+	<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>${title}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- google fonts -->
+
+		<!-- Css link -->
+		<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/owl.transitions.css">
+		<link rel="stylesheet" href="css/animate.min.css">
+		<link rel="stylesheet" href="css/lightbox.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/preloader.css">
+		<link rel="stylesheet" href="css/image.css">
+		<link rel="stylesheet" href="css/icon.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/responsive.css">
+		<link rel="shortcut icon" href="http://www.clipartbest.com/cliparts/Kcn/eM6/KcneM6q9i.png" type="image/png">
+	</head>
+	<body id="top">
+	
+      <header id="navigation" class="navbar-fixed-top animated-header">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- responsive nav button -->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+                    </button>
+					<!-- /responsive nav button -->
+					
+					<!-- logo -->
+					<h1 class="navbar-brand">
+						<a href="/home"><img src="\img\telephone.png" height="50" width="50" alt="">Passible</a>
+					</h1>
+					<!-- /logo -->
+>>>>>>> 15b786590c818967770d0cf7a74adb94a43e4ac1
+>>>>>>> 88747cb1a17ae4392e391714f54fc5ed2ed29b57
                 </div>
                 <div class="col-lg-6">
                     <ul class="list-inline banner-social-buttons">
@@ -193,7 +260,12 @@
                 </div>
             </div>
 
+<<<<<<< HEAD
         </div>
+=======
+<<<<<<< HEAD
+        </div>-->
+>>>>>>> 88747cb1a17ae4392e391714f54fc5ed2ed29b57
         <!-- /.container -->
 
     </div> 
@@ -224,9 +296,30 @@
                         <li>
                             <a href="#contact">Contact</a>
                         </li>
+<<<<<<< HEAD
                     </ul>
                     <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
                 </div>
+=======
+                    </ul>
+                    <p  style="color:white;" class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
+                </div>
+=======
+				<!-- main nav -->
+                <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                    <ul id="nav" class="nav navbar-nav menu">
+                        <li><a href="#top">Home</a></li>
+                        <li><a href="/submit">Create Your Contact</a></li>
+                        <li><a href="/aboutus">About Us</a></li>
+						<li><a href="#team">Team</a></li>
+                        <li><a href="#testimonial">Mentors</a></li>
+                       
+                    </ul>
+                </nav>
+				<!-- /main nav -->
+				
+>>>>>>> 15b786590c818967770d0cf7a74adb94a43e4ac1
+>>>>>>> 88747cb1a17ae4392e391714f54fc5ed2ed29b57
             </div>
         </div>
     </footer>
