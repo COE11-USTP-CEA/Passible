@@ -11,11 +11,10 @@
 <link rel="stylesheet" href="font-awesome.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <title>${title}</title>
- 
 
-</head>
 
-<body background="http://www.magic4walls.com/wp-content/uploads/2014/04/bridge-lake-pier-city-night-lights-macro-photo-blur-hd-wallpaper.jpg">
+</head> 
+<body style="background-color:lightpink;">
 <!-- Navbar -->
 <nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -27,7 +26,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
- <a href="/home"><img src="\img\telephone.png" height="40" width="40" alt="">Passible</a>
+      <a href="/home"><img src="\img\telephone.png" height="40" width="40" alt="">Passible</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -39,7 +38,7 @@
         	</a>
         </li>
         <li>
-        	<a href="/list">Delete Contact</a>
+        	<a href="/post">Delete Contact</a>
         </li>
 
         <li>
@@ -47,47 +46,47 @@
         </li>
       </ul>
        
+      
 	</div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
-<div class="text-center">
-<h1>You have just added a new Contact </h1>
-</div>
 
+<div class="row">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+  	
+	<table class="table table-striped">
+		<thead>
+			<tr>
+			<th>Your Name</th>
+			<th>Email</th>
+			<th>Number</th>
 
-<div class="row jumbotron">
-  <div class="col-md-4"></div>
-  <div class="col-md-4" >
-    <ul>
-      <li> <h3>  Name: ${item.code}</h3></li>
-      <li> <h3> Email: ${item.name}</h3></li>
-       <li><h3>Number: ${item.number}</h3></li>
-       </ul>
+			</tr>
+		</thead>
+		<tbody>
+	 		<#list contacts as item>
+				<tr>
+					<td>${item.code}</td>
+					<td>${item.name}</td>
+						<td>${item.number}</td>
+						</div>
+					</td>
+					<td>
+  							<button type="button" class="btn btn-default">
+  							<a href="/delete/${item.code}">Delete Contact</a>	
+  							</button>
+					</td>
+				</tr>
 
-
-<div class="btn-group" role="group" aria-label="...">
-  
-  	<button type="button" class="btn btn-default">
-  		<a href="/home">
-  			Back to Homepage
-  		</a>
-  	</button>
-</div>
-
-<div class="btn-group" role="group" aria-label="...">
-  
-    <button type="button" class="btn btn-default">
-      <a href="/list">
-        View Contact List
-      </a>
-    </button>
-</div>
-
+			</#list>
+		</tbody>	
+	</table>
 
   </div>
-  <div class="col-md-4"></div>
 
+  <div class="col-md-2"></div>
 </div>
 
 </body>

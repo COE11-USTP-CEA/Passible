@@ -1,9 +1,12 @@
 
+
+
+
 <!DOCTYPE html>
 <html>
  
 <head>
-<link rel="shortcut icon" href="http://www.clipartbest.com/cliparts/Kcn/eM6/KcneM6q9i.png" type="image/png">
+	<link rel="shortcut icon" href="http://www.clipartbest.com/cliparts/Kcn/eM6/KcneM6q9i.png" type="image/png">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="w3.css">
@@ -11,11 +14,11 @@
 <link rel="stylesheet" href="font-awesome.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <title>${title}</title>
- 
 
+ 
 </head>
 
-<body background="http://www.magic4walls.com/wp-content/uploads/2014/04/bridge-lake-pier-city-night-lights-macro-photo-blur-hd-wallpaper.jpg">
+<body background="https://w-dog.net/wallpapers/14/17/397383218974507/mood-light-light-candle-flashlight-beautiful-magical-fire-star-stars-night-night-town-bokeh-blur-background-wallpaper-widescreen-full-screen-widescreen-hd-wallpapers-background-wallpaper-widescreen-fu.jpg">
 <!-- Navbar -->
 <nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -27,19 +30,22 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
- <a href="/home"><img src="\img\telephone.png" height="40" width="40" alt="">Passible</a>
+     <a href="/home"><img src="\img\telephone.png" height="40" width="40" alt="">Passible</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
+       <li>
+       <a href="/home"><img src="\img\telephone.png" height="40" width="40" alt="">Passible</a>
+        </li>
         <li class="active">
         	<a href="/submit">Add Contact
         		<span class="sr-only">(current)</span>
         	</a>
         </li>
         <li>
-        	<a href="/list">Delete Contact</a>
+        	<a href="/post">Delete Contact</a>
         </li>
 
         <li>
@@ -50,21 +56,16 @@
 	</div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-
 <div class="text-center">
-<h1>You have just added a new Contact </h1>
+<h1>Contact Deleted</h1>
+
 </div>
 
 
 <div class="row jumbotron">
   <div class="col-md-4"></div>
-  <div class="col-md-4" >
-    <ul>
-      <li> <h3>  Name: ${item.code}</h3></li>
-      <li> <h3> Email: ${item.name}</h3></li>
-       <li><h3>Number: ${item.number}</h3></li>
-       </ul>
-
+  <div class="col-md-4">
+    <div class= "text-center">
 
 <div class="btn-group" role="group" aria-label="...">
   
@@ -79,15 +80,14 @@
   
     <button type="button" class="btn btn-default">
       <a href="/list">
-        View Contact List
+        View Contact list
       </a>
     </button>
 </div>
 
-
+</div>
   </div>
-  <div class="col-md-4"></div>
-
+  <div class="col-md-4"> 	
 </div>
 
 </body>
